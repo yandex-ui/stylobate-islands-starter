@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "stylobate": "0.1.x",
+    "stylobate-islands": "git://github.com/yandex-ui/stylobate-islands.git#master"
+  }
+}
