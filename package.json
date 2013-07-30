@@ -1,0 +1,26 @@
+{
+  "private": true,
+
+  "name": "stylobate-islands-starter",
+  "version": "0.1.0",
+
+  "author": "Roman Komarov <kizmarh@ya.ru> (http://kizu.ru/en/)",
+  "licence": "MIT",
+
+  "description": "Starter kit for work with Stylobate, using islands skin as an example",
+  "homepage": "https://github.com/yandex-ui/stylobate-islands-starter#readme",
+  "bugs": { "url": "http://github.com/yandex-ui/stylobate-islands-starter/issues" },
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yandex-ui/stylobate-islands-starter.git"
+  },
+  "dependencies": {
+    "stylus": "0.35.x",
+    "autoprefixer": "0.6.x",
+    "stylobate": "0.1.x",
+    "stylobate-islands": "https://github.com/yandex-ui/stylobate-islands/tarball/master"
+  },
+
+  "engines": { "node": ">=0.6" }
+}
