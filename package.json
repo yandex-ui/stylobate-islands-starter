@@ -20,7 +20,7 @@
     "autoprefixer": "0.7.x",
     "csso": "1.3.x",
     "stylobate": "0.13.x",
-    "stylobate-islands": "0.9.x"
+    "stylobate-islands": "0.10.x"
   },
 
   "engines": { "node": ">=0.6" }
