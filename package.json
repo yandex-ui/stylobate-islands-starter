@@ -19,8 +19,7 @@
     "stylus": "0.37.x",
     "autoprefixer": "0.8.x",
     "csso": "1.3.x",
-    "stylobate": "0.17.x",
-    "stylobate-islands": "0.14.x"
+    "stylobate-islands": "0.15.x"
   },
 
   "engines": { "node": ">=0.6" }
