@@ -1,17 +1,8 @@
 build:
-	make build_styles && \
-	make minify
-
-build_dev:
-	make build_styles
-
-build_styles:
 	./node_modules/stylus/bin/stylus style.styl && \
-	./node_modules/stylus/bin/stylus style.ie.styl && \
-	./node_modules/autoprefixer/bin/autoprefixer style.css
+	./node_modules/stylus/bin/stylus style.ie.styl
 
-minify:
-	./node_modules/csso/bin/csso style.css style.css && \
-	./node_modules/csso/bin/csso style.ie.css style.ie.css
+watch:
+	./node_modules/stylus/bin/stylus --watch style.styl
 
 .PHONY: build
