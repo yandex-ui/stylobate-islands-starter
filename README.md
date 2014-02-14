@@ -10,7 +10,7 @@ cd my-stylobate-styles && \
 npm install
 ```
 
-And you're ready to go! You'll have `style.styl` with everything set up, so you can begin to write your code using Stylobate and its Islands skin.
+And you're ready to go! In `s` directory you'll have `style.styl` with everything set up, so you can begin to write your code using Stylobate and its Islands skin.
 
 When you edited `style.styl`, just write
 
@@ -18,7 +18,7 @@ When you edited `style.styl`, just write
 make
 ```
 
-And you'll get your `style.css` and `style.ie.css` automatically, so all you'll need to do then is to include them into your html:
+And you'll get your `style.css` and `style.ie.css` automatically, so all you'll need to do then is to include them into your html (example minimal `index.html` is provided):
 
 ``` HTML
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7,IE=edge"/><!--[if gt IE 7]><!-->
