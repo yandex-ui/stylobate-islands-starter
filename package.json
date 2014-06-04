@@ -2,7 +2,7 @@
   "private": true,
 
   "name": "stylobate-islands-starter",
-  "version": "0.7.4",
+  "version": "0.7.5",
 
   "author": "Roman Komarov <kizmarh@ya.ru> (http://kizu.ru/en/)",
   "licence": "MIT",
@@ -17,7 +17,7 @@
   },
 
   "dependencies": {
-    "stylus": "0.44.x",
+    "stylus": "0.46.x",
     "stylobate-islands": "0.27.x",
     "stylobuild": "0.4.x"
   },
