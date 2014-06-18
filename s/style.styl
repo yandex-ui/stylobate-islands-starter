@@ -3,8 +3,12 @@ use('node_modules/stylobuild', {
   ie: ie
 })
 
-// Include all the stuff
+// Uncomment below to use pixels instead of rems everywhere
+// rem = 10px
+
+// Comment below to remove init styles on HTML and BODY
 $init_islands_root = true
+
 @require "node_modules/stylobate-islands/lib/standalone"
 
 // Your styles go here
